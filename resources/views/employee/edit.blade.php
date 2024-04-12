@@ -38,7 +38,7 @@
     </nav>
 
     <div class="container-sm mt-5">
-        <form action="{{ route('employees.update', $employee->employee_id) }}" method="POST">
+        <form action="{{ route('employees.update', $employee->id) }}" method="POST">
             @csrf
             <div class="row justify-content-center">
                 <div class="p-5 bg-light rounded-3 border col-xl-6">
